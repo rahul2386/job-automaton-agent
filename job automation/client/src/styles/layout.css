@@ -1,0 +1,31 @@
+.header {
+  margin-bottom: 24px;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+}
+
+.card-section {
+  margin-top: 24px;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-sm {
+  gap: 8px;
+}
+
+.gap-md {
+  gap: 16px;
+}

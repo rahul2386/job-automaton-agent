@@ -1,0 +1,25 @@
+.card {
+  background: #ffffff;
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  border: 1px solid #E2E8F0;
+  transition: transform var(--transition-fast),
+              box-shadow var(--transition-fast);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+}
+
+.card-preview {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--color-text);
+}
